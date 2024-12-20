@@ -2,7 +2,7 @@
 // Métodos de alteração de array como push, pop, shift não funcionarão nesses arrays
 // Métodos de iteração como map, some, forEach, filter funcionam normalmente
 
-const usuarios = Object.freeze([
+export const usuarios = Object.freeze([
   {
     id: 1,
     nome: "Samuel Persuhn",
